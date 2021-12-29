@@ -11,8 +11,5 @@
   },
   "issueSettings": {
     "minSeverityLevel": "LOW"
-  },
-  "remediateSettings": {
-    "extends": ["github>whitesource/log4j-remediations"]
   }
 }

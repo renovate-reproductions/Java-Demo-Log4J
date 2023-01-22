@@ -28,6 +28,7 @@ public class ClickJackingServlet extends AbstractServlet {
         Locale locale = req.getLocale();
 
         StringBuilder bodyHtml = new StringBuilder();
+        StringBuilder bodyHtml2 = new StringBuilder();
         bodyHtml.append("<form action=\"/admins/clickjacking\" method=\"post\">");
         bodyHtml.append(getMsg("msg.enter.mail", locale));
         bodyHtml.append("<br><br>");
